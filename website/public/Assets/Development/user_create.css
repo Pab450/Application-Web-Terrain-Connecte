@@ -1,0 +1,121 @@
+body, html {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+form {
+    width: 20%;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: "Roboto", sans-serif;
+    background: lightgrey;
+    width: 100%;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background: lightskyblue;
+    color: white;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover, a.button:hover {
+    background: deepskyblue;
+}
+
+label[for="level"] {
+    margin-bottom: 10px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #777777;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin: 0 10px 0 0;
+    appearance: none;
+    border-radius: 50%;
+    transition: 0.2s all linear;
+    width: 0;
+    height: 0;
+    border: 5px solid lightgrey;
+}
+
+input[type="radio"]:checked {
+    border: 5px solid lightskyblue;
+}
+
+p {
+    min-width: 300px;
+    font-family: "Roboto", sans-serif;
+    background: #ff4d4d;
+    box-shadow: 0 0 10px gray;
+    width: 20%;
+    margin: auto auto 15px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+a.button {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+    margin-top: 15px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    background: lightskyblue;
+    color: white;
+    text-transform: uppercase;
+    width: 20%;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+p {
+    min-width: 300px;
+    font-family: "Roboto", sans-serif;
+    background: #ff4d4d;
+    box-shadow: 0 0 10px gray;
+    width: 20%;
+    margin: auto auto 15px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#success {
+    background: limegreen;
+}
